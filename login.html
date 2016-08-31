@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>welcome</title>
+<style type="text/css">
+body{
+	background-color:rgba(0,0,0,0.8);}
+*:focus{
+			outline:none; 
+		}
+		body {
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+		}
+#kuang{
+	margin:100px auto;
+	width:300px;
+	height:300px;
+	padding:50px;
+	border:1px dotted #999;
+	background-color:#FFF;}
+#wel{
+	width:300px;
+	border:1px solid #999;}
+#wel p{
+	text-align:center;
+	margin:10px auto;
+	color:#60C;
+	}
+form{
+	margin:20px auto;
+	padding:20px;}
+input[type=text],input[type=password]{
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			background-color:#fff;
+			border:1px solid #ccc;
+			font-size:20px;
+			min-height:30px;
+			display:block;
+			margin-bottom:8px;
+			margin-top:8px;
+			
+			-webkit-transition: all 0.5s ease-in-out;
+			-moz-transition: all 0.5s ease-in-out;
+			transition: all 0.5s ease-in-out;
+		}
+input[type=text]:focus,input[type=password]:focus{
+			-webkit-box-shadow:0 0 25px #ccc;
+			-moz-box-shadow:0 0 25px #ccc;
+			box-shadow:0 0 25px #ccc;
+			
+			-webkit-transform: scale(1.05);
+			-moz-transform: scale(1.05);
+			transform: scale(1.05);
+		}
+input[type=checkbox]{
+	display:inline-block;}
+input[type=submit] {
+	        margin-left:100px;
+			width:50px;
+			height:25px;}
+legend{
+	color:#300;
+	font-size:20px;}
+</style>
+</head>
+
+<body>
+<div id="kuang">
+  <div id="wel"><p>您好，欢迎登录！</p></div>
+      <form>
+      <legend>账号：</legend>
+        <input type="text">
+      <legend>密码：</legend>  
+        <input type="password"><br/>
+       <input type="checkbox">记住密码
+       <input type="submit" value="登录">
+      </form>
+  
+</div>
+</body>
+</html>
